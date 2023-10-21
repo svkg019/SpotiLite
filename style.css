@@ -5,3 +5,31 @@ body {
     color: white;
     overflow: hidden;
 }
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: lightcoral;
+    width: 325px;
+    border-radius: 1rem;
+    background-color: #121212;
+}
+
+.main-content {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.music-player {
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 72px;
+
+}
