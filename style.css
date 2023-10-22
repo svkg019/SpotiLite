@@ -165,3 +165,9 @@ a {
 .sticky-nav-item {
     margin: 0.5rem;
 }
+
+@media (max-width:850px) {
+    .hide {
+        display: none;
+    }
+}
