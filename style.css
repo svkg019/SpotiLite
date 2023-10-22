@@ -25,6 +25,7 @@ body {
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .music-player {
@@ -170,4 +171,27 @@ a {
     .hide {
         display: none;
     }
+}
+
+.card {
+    background-color: #232323;
+    color: white;
+    padding: 0.5rem;
+    width: 175px;
+    border-radius: 0.5rem;
+}
+
+.card-img-top {
+    border-radius: 0.5rem;
+}
+
+.card-body h5 {
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.card-body p {
+    font-size: 0.75rem;
+    opacity: 0.5;
 }
