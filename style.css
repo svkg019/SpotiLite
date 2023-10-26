@@ -222,3 +222,19 @@ a {
     border-top: 1px solid white;
     opacity: 0.1;
 }
+
+.music-player {
+    display: flex;
+}
+
+.album {
+    width: 25%;
+}
+
+.player {
+    width: 50%;
+}
+
+.controls {
+    width: 25%;
+}
