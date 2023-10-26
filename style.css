@@ -177,7 +177,8 @@ a {
     }
 }
 
-.cards-container-2 {
+.cards-container-2,
+.cards-container-3 {
     display: flex;
     flex-wrap: wrap;
 }
