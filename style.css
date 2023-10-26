@@ -173,12 +173,20 @@ a {
     }
 }
 
+.cards-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card {
     background-color: #232323;
     color: white;
     padding: 0.5rem;
     width: 175px;
     border-radius: 0.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
 }
 
 .card-img-top {
