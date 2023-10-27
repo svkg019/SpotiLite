@@ -243,9 +243,7 @@ a {
     align-items: center;
 }
 
-.controls {
-    width: 25%;
-}
+
 
 .player-control {
     height: 1rem;
@@ -323,4 +321,13 @@ a {
     .album-icon {
         display: none;
     }
+}
+
+.controls {
+    width: 25%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
