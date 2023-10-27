@@ -329,11 +329,12 @@ a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .controls i {
     opacity: 0.5;
+    margin-left: 1rem;
 }
 
 .controls i:hover {
