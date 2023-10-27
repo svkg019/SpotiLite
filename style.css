@@ -259,6 +259,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .album {
@@ -339,4 +340,27 @@ a {
 
 .controls i:hover {
     opacity: 1;
+}
+
+.progress-bar {
+    width: 75%;
+    margin: 0 0.5rem 0 0.5rem;
+    cursor: pointer;
+}
+
+.volume-bar {
+    display: flex;
+    align-items: center;
+}
+
+.volume-bar i {
+    margin-right: 0.25rem;
+}
+
+.volume-bar input[type="range"] {
+    cursor: pointer;
+}
+
+.playback-bar span {
+    font-size: 0.75rem;
 }
