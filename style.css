@@ -302,7 +302,6 @@ a {
 .album-icon {
     height: 100%;
     width: 25%;
-    background: lightgreen;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -311,5 +310,12 @@ a {
 .album-icon i {
     top: 50%;
     margin-right: 1rem;
+}
 
+@media (max-width:850px) {
+
+    .album-card,
+    .album-icon {
+        display: none;
+    }
 }
