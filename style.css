@@ -310,6 +310,11 @@ a {
 .album-icon i {
     top: 50%;
     margin-right: 1rem;
+    opacity: 0.5;
+}
+
+.album-icon i:hover {
+    opacity: 1;
 }
 
 @media (max-width:850px) {
