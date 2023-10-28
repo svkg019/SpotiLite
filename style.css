@@ -188,6 +188,7 @@ a {
     }
 }
 
+.cards-container-1,
 .cards-container-2,
 .cards-container-3 {
     display: flex;
@@ -379,6 +380,7 @@ a {
 
 .playback-bar span {
     font-size: 0.75rem;
+    padding-top: 2px;
 }
 
 #play {
