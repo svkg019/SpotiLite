@@ -370,3 +370,12 @@ a {
 .playback-bar span {
     font-size: 0.75rem;
 }
+
+#play {
+    opacity: 1;
+    height: 2rem;
+}
+
+#play:hover {
+    transform: scale(1.1);
+}
